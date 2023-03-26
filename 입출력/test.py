@@ -1,4 +1,4 @@
-def args_test_3(one, two, *args, three):
-    print(one+two+sum(args))
-    print(args)
-args_test_3(3,4,5,6)
+list=[1,2,3,4]
+list+=[1]
+print(list)
+print(set(list))
